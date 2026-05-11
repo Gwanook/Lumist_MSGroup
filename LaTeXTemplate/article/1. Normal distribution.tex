@@ -1,4 +1,4 @@
-\section{Normal distribution}
+\section{Standard normal distribution}
 \noindent
 \begin{minipage}{0.67\textwidth}
 	The table below contains the probability
@@ -8,9 +8,7 @@
 	=\int_{-\infty}^{z}\frac{1}{\sqrt{2\pi}}
 	\exp\!\left(-\frac{u^{2}}{2}\right)~\mathrm{d}u
 	\]
-	
-	for a normally distributed random variable $Z$ with expected value $0$ and variance $1$.
-	
+	for a normally distributed random variable $Z$ with expected value $0$ and variance $1$, i.e. $Z\sim\mathcal{N}(0,1)$.\\[5pt]	
 	The table only contains the probabilities for $z \ge 0$. For $z < 0$, the probabilities can be obtained using the identity
 	\[
 	\Phi(z)=1-\Phi(-z).
@@ -48,7 +46,7 @@
 		% 标签
 		\node at (3.1,-0.03) {$u$};
 		\node[above] at (0.5,0.4) {$\phi(u)$};
-		\node at (-0.9,0.09) {$\Phi(z)$};
+		\node at (-0.7,0.1) {$\Phi(z)$};
 		\node[below] at (\z,0) {$z$};
 		
 	\end{tikzpicture}
